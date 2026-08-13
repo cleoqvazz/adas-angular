@@ -1,0 +1,21 @@
+.aluno-lista {
+    padding: 16px;
+    background-color: #323232;
+    height: 100%;
+}
+
+.lista-cards {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.cabecalho {
+    margin: 16px 0;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+}

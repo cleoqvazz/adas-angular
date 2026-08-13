@@ -1,0 +1,24 @@
+<div class="aluno-lista">
+
+    <div class="cabecalho">
+        <h2>Lista de alunos</h2>
+    </div>
+
+    @if(listaAlunos.length === 0) {
+
+        <p>Nenhum registro de alunos encontrado no banco.</p>
+        
+    } @else {
+
+        <div class="lista-cards">
+    
+            @for (objetoAluno of listaAlunos; track $index) {
+                <app-aluno-card [aluno]="objetoAluno"></app-aluno-card>
+            }
+        
+        
+        </div>
+    }
+
+
+</div>
